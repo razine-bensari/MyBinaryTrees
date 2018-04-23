@@ -14,7 +14,7 @@ public class Driver {
 
         Comparator<Node> mycomp = new ComparableOfRazine();
         A3AVLTree<String> myTree2 = new A3AVLTree(mycomp);
-        A3BSTree<String> myTree1 = new A3BSTree(mycomp);
+        A3BSTree<Integer> myTree1 = new A3BSTree(mycomp);
 
 
 
@@ -39,16 +39,16 @@ public class Driver {
 
 
         myTree1.add(1);
-        myTree1.add(2);
-        myTree1.add(3);
-        myTree1.add(3);
-        myTree1.add(4);
-        myTree1.add(5);
-        myTree1.add(6);
-        myTree1.add(7);
-        myTree1.add(8);
-        myTree1.add(9);
-        myTree1.add(10);
+        myTree1.add(456);
+        myTree1.add(645);
+        myTree1.add(6345);
+        myTree1.add(3456);
+        myTree1.add(5456);
+        myTree1.add(1554);
+        myTree1.add(134);
+        myTree1.add(2345);
+        myTree1.add(23454);
+        myTree1.add(3653);
 
 
 
